@@ -1,5 +1,5 @@
-(ns running-page.views.intervals
-  (:require [running-page.views.common :as common]
+(ns running-pages.views.intervals
+  (:require [running-pages.views.common :as common]
             [noir.content.getting-started])
   (:use [noir.core :only [defpage defpartial]]
         [analemma.charts :only [emit-svg xy-plot add-points y-axis default-chart-props]]
